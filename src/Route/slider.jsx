@@ -26,7 +26,7 @@ const Carousel = () => {
             <div
               key={slide.id}
               className="w-full flex-shrink-0 flex items-center justify-center  rounded-sm"
-              style={{ height: '70vh', }}
+              style={{ height: '50vh', }}
             >
               <img src={slide.Image} alt='alt-img' className="w-full h-full object-cover" />
             </div>
